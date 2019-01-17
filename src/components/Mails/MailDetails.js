@@ -10,6 +10,8 @@ export default class MailDetails extends Component {
     this.state = {}
   }
 
+
+
   //Function which is called when the component loads for the first time
   componentDidMount() {
     this.getMailDetails(this.props.val)
@@ -43,10 +45,6 @@ export default class MailDetails extends Component {
           <p>Name : {this.state.mailDetails.data.name}</p>
           <p>Email : {this.state.mailDetails.data.email}</p>
           <p>Phone : {this.state.mailDetails.data.phone}</p>
-          <p>City : {this.state.mailDetails.data.city}</p>
-          <p>State : {this.state.mailDetails.data.state}</p>
-          <p>Country : {this.state.mailDetails.data.country}</p>
-          <p>Organization : {this.state.mailDetails.data.organization}</p>
           <p>Job Profile : {this.state.mailDetails.data.jobProfile}</p>
           <p>Message : {this.state.mailDetails.data.message}</p>
         </Panel.Body>

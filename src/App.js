@@ -21,7 +21,7 @@ class App extends Component {
                 <Route exact path='/maillist' component={Mails} />
           </Switch>
         </div>
-    </Router>
+      </Router>
     );
   }
 }

@@ -3,10 +3,6 @@
 	"name": "Tyrion",
 	"email": "tyrion@test.com",
 	"phone": "123412345",
-	"city": "Chennai",
-	"state": "Tamil Nadu",
-	"country": "India",
-	"organization": "Company 3",
 	"jobProfile": "Software Developer",
 	"message": "Buys Lots of Products in general"
 }
