@@ -1,0 +1,32 @@
+.b-tooltip {
+    /*border: 3px solid #fff;
+    */display: inline-block;
+    font-size: .875em;
+    padding: .75em;
+    position: absolute;
+    text-align: center;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.b-tooltip::after {
+      content: '';
+      position: absolute;
+      left: 45%;
+      top: 100%;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 10px solid #2F3440;
+      clear: both;
+}
+
+.b-tooltip-light {
+    background: #eaeaea;
+    box-shadow: 0px 0px 6px 1px rgba(47, 52, 64,0.2);
+    color: #242424
+}
+
+.b-tooltip-dark {
+    background: #2F3440;
+    box-shadow: 0px 0px 6px 1px rgba(47, 52, 64, 0.2);
+    color: #fff
+}
